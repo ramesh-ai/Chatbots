@@ -1,0 +1,155 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "thanks!",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "thx",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "thanks very much",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "convert 60 usd to pkr",
+        "intent": "convert",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "pkr",
+            "entity": "to"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "usd",
+            "entity": "from"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "60",
+            "entity": "amount"
+          }
+        ]
+      },
+      {
+        "text": "convert 100 AUD to INR",
+        "intent": "convert",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "100",
+            "entity": "amount"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "AUD",
+            "entity": "from"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "INR",
+            "entity": "to"
+          }
+        ]
+      },
+      {
+        "text": "how about 150 EUR to USD",
+        "intent": "convert",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "150",
+            "entity": "amount"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "EUR",
+            "entity": "from"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "value": "USD",
+            "entity": "to"
+          }
+        ]
+      },
+      {
+        "text": "what is the rate for 60 EUR to INR",
+        "intent": "convert",
+        "entities": [
+          {
+            "start": 21,
+            "end": 23,
+            "value": "60",
+            "entity": "amount"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "EUR",
+            "entity": "from"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "INR",
+            "entity": "to"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
